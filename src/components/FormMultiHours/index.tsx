@@ -1,13 +1,13 @@
 import React from "react";
-import './style.scss';
+import style from './FormMultiHours.module.scss';
 
 function FormMultiHours (){
   return (
     <form >
-      <input className="inputContainer" />
+      <input className={style.inputContainer} />
       X
-      <input className="inputContainer" /> 
-      <button>Answer</button>
+      <input className={style.inputContainer} /> 
+      <button >Answer</button>
     </form>
   );
   
